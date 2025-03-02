@@ -1,0 +1,6 @@
+﻿routeID;orderID;originWarehouse;destinationWarehouse;logisticNode;shipperCompany;shippingCost;transportType
+R1;O1001;W1;C1;LN2,LN7;FastDelivery;300;Air
+R2;O1002;W2;C2;LN3,LN5;ExpressLogistics;100;Rail
+R3;O1003;W1;C3;LN1,LN6;SeaTrans;150;Sea
+R4;O1004;W1;C4;LN2,LN4;FastDelivery;300;Air
+R5;O1005;W2;C5;LN1,LN6;SeaTrans;180;Sea

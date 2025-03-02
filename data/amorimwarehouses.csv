@@ -1,0 +1,3 @@
+﻿warehouseID;location;capacity;currentInventory;managerContact;operationalHours
+W1;Póvoa de Varzim;5000;4500;warehousepvz.manager@example.com;8AM-8PM
+W2;Porto;7000;6500;warehouseporto.manager@example.com;7AM-9PM

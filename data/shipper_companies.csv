@@ -1,0 +1,4 @@
+﻿ShipperCompanyID;companyName;type;deliverySpeed
+S01;FastDelivery;Air Freight;Fast
+S02;ExpressLogistics;Rail Transport;Medium
+S03;SeaTrans;Ocean Freight;Slow

@@ -1,0 +1,8 @@
+﻿logisticsNodeID;logisticsNodeName;type;customsClearanceTime
+LN1;Port of Sines;Sea;2 days
+LN2;Sá Francisco Airport;Air;1 day
+LN3;Porto Terminal Station;Rail;1 day
+LN4;Los Angeles Airport;Air;1 day
+LN5;Los Angeles Terminal;Rail;2 day
+LN6;New York Port;Sea;2 day
+LN7;NewYork Airport;Air;1 day

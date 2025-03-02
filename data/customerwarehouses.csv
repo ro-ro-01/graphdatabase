@@ -1,0 +1,6 @@
+﻿warehouseID;customerID;shippingAddress;managerContact
+C1;C123;123 Main St, NY;warehouseny1.manager@example.com
+C2;C124;456 Elm St, LA;warehousela1.manager@example.com
+C3;C125;13 Main St, NY;warehouseny2.manager@example.com
+C4;C123;6 Elm St, LA;warehousela3.manager@example.com
+C5;C124;3 Main St, NY;warehouseny4.manager@example.com
