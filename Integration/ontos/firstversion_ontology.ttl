@@ -1,0 +1,210 @@
+@prefix : <urn:webprotege:ontology:74a7a6d0-232c-4cde-9648-5a3dc747237d#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:74a7a6d0-232c-4cde-9648-5a3dc747237d> .
+
+<urn:webprotege:ontology:74a7a6d0-232c-4cde-9648-5a3dc747237d> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R4iscXOVtuCKKbOd57gngU
+<http://webprotege.stanford.edu/R4iscXOVtuCKKbOd57gngU> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "Equivalent" .
+
+
+###  http://webprotege.stanford.edu/R5KToYing43JrKyXxxm0FU
+<http://webprotege.stanford.edu/R5KToYing43JrKyXxxm0FU> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "Transport" .
+
+
+###  http://webprotege.stanford.edu/R718ePnemv6TLkAWWHTXPRJ
+<http://webprotege.stanford.edu/R718ePnemv6TLkAWWHTXPRJ> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "DeliverTo" .
+
+
+###  http://webprotege.stanford.edu/R7IWZiyEQ0R5wdcuvYpOLHM
+<http://webprotege.stanford.edu/R7IWZiyEQ0R5wdcuvYpOLHM> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Is" .
+
+
+###  http://webprotege.stanford.edu/R8TfH40srhpUiqegS084OEK
+<http://webprotege.stanford.edu/R8TfH40srhpUiqegS084OEK> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Ship" .
+
+
+###  http://webprotege.stanford.edu/RB3tpLZ7uGrAIoq2KmdOEol
+<http://webprotege.stanford.edu/RB3tpLZ7uGrAIoq2KmdOEol> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "HasStop" .
+
+
+###  http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO
+<http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Has" .
+
+
+###  http://webprotege.stanford.edu/RCEtSvK3cEI5h243B4CVub3
+<http://webprotege.stanford.edu/RCEtSvK3cEI5h243B4CVub3> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Packed" .
+
+
+###  http://webprotege.stanford.edu/RCnKQZhYLu1yZ59E28T6hVz
+<http://webprotege.stanford.edu/RCnKQZhYLu1yZ59E28T6hVz> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Delivers" .
+
+
+###  http://webprotege.stanford.edu/RfjObQvU0sPfGa3CaTQuK8
+<http://webprotege.stanford.edu/RfjObQvU0sPfGa3CaTQuK8> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "Send" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R0uUrUqD2fjCmmx76ADCzn
+<http://webprotege.stanford.edu/R0uUrUqD2fjCmmx76ADCzn> rdf:type owl:Class ;
+                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R4iscXOVtuCKKbOd57gngU> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RDGZtdhiEdi0xNVbMwZnJvF>
+                                                                        ] ;
+                                                        rdfs:label "Stop" .
+
+
+###  http://webprotege.stanford.edu/R7ZtgPDM4aKn5zUyAjyxF2g
+<http://webprotege.stanford.edu/R7ZtgPDM4aKn5zUyAjyxF2g> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R718ePnemv6TLkAWWHTXPRJ> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RDGZtdhiEdi0xNVbMwZnJvF>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8TfH40srhpUiqegS084OEK> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9CQbk1EMiastbNlbn4nNYL>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8CUCwpS5ezlW3bWb1SHV4w>
+                                                                         ] ;
+                                                         rdfs:label "Shipment" .
+
+
+###  http://webprotege.stanford.edu/R8CUCwpS5ezlW3bWb1SHV4w
+<http://webprotege.stanford.edu/R8CUCwpS5ezlW3bWb1SHV4w> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "AdditionalIdentifier" .
+
+
+###  http://webprotege.stanford.edu/R8E10bnBdX7DQcW77h6EkpV
+<http://webprotege.stanford.edu/R8E10bnBdX7DQcW77h6EkpV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "DangerousGoodsInformation" .
+
+
+###  http://webprotege.stanford.edu/R8sjEDaQ7fQk0LuKXHg9jP2
+<http://webprotege.stanford.edu/R8sjEDaQ7fQk0LuKXHg9jP2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R5KToYing43JrKyXxxm0FU> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBPmnB2Gb7sGXDyU14IaH7y>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/Reb0UFqAbblNJlXEsEKjo8>
+                                                                         ] ;
+                                                         rdfs:label "Consigment" .
+
+
+###  http://webprotege.stanford.edu/R9CQbk1EMiastbNlbn4nNYL
+<http://webprotege.stanford.edu/R9CQbk1EMiastbNlbn4nNYL> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8E10bnBdX7DQcW77h6EkpV>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9F6cbKYNK9HKvG4yrov3k2>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RN5CvtEqBxr6KsnfIfcEoc>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/Rmtaao5JNjJJoDoD2Z2lZP>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCEtSvK3cEI5h243B4CVub3> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9zeJyDiouJMnuYweKaYZcI>
+                                                                         ] ;
+                                                         rdfs:label "ShipmentTradeItem" .
+
+
+###  http://webprotege.stanford.edu/R9F6cbKYNK9HKvG4yrov3k2
+<http://webprotege.stanford.edu/R9F6cbKYNK9HKvG4yrov3k2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "ShipmentItemAdditionalRefernce" .
+
+
+###  http://webprotege.stanford.edu/R9zeJyDiouJMnuYweKaYZcI
+<http://webprotege.stanford.edu/R9zeJyDiouJMnuYweKaYZcI> rdf:type owl:Class ;
+                                                         rdfs:label "LoadingUnit" .
+
+
+###  http://webprotege.stanford.edu/RBPmnB2Gb7sGXDyU14IaH7y
+<http://webprotege.stanford.edu/RBPmnB2Gb7sGXDyU14IaH7y> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7IWZiyEQ0R5wdcuvYpOLHM> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9zeJyDiouJMnuYweKaYZcI>
+                                                                         ] ;
+                                                         rdfs:label "ConsigmentItem" .
+
+
+###  http://webprotege.stanford.edu/RCq2If9Uuyw2C50QlxOoRQT
+<http://webprotege.stanford.edu/RCq2If9Uuyw2C50QlxOoRQT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RfjObQvU0sPfGa3CaTQuK8> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R7ZtgPDM4aKn5zUyAjyxF2g>
+                                                                         ] ;
+                                                         rdfs:label "Shipper" .
+
+
+###  http://webprotege.stanford.edu/RDGZtdhiEdi0xNVbMwZnJvF
+<http://webprotege.stanford.edu/RDGZtdhiEdi0xNVbMwZnJvF> rdf:type owl:Class ;
+                                                         rdfs:label "ShippingPoint" .
+
+
+###  http://webprotege.stanford.edu/RDHf2vbmEhAdEKqlj9AxIpc
+<http://webprotege.stanford.edu/RDHf2vbmEhAdEKqlj9AxIpc> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCDBrr7AE0STKyAFj3XklUO> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R0uUrUqD2fjCmmx76ADCzn>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCnKQZhYLu1yZ59E28T6hVz> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8sjEDaQ7fQk0LuKXHg9jP2>
+                                                                         ] ;
+                                                         rdfs:label "Trip" .
+
+
+###  http://webprotege.stanford.edu/RN5CvtEqBxr6KsnfIfcEoc
+<http://webprotege.stanford.edu/RN5CvtEqBxr6KsnfIfcEoc> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ;
+                                                        rdfs:label "TransportReference" .
+
+
+###  http://webprotege.stanford.edu/Reb0UFqAbblNJlXEsEKjo8
+<http://webprotege.stanford.edu/Reb0UFqAbblNJlXEsEKjo8> rdf:type owl:Class ;
+                                                        rdfs:label "ServiceProvider" .
+
+
+###  http://webprotege.stanford.edu/Rmtaao5JNjJJoDoD2Z2lZP
+<http://webprotege.stanford.edu/Rmtaao5JNjJJoDoD2Z2lZP> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ;
+                                                        rdfs:label "TradeItemDataDetail" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
