@@ -1,0 +1,4 @@
+ShipmentID;AdditionalIdentifierID;IdentifierType
+SHIP123;AID001;Barcode
+SHIP456;AID002;RFID
+SHIP789;AID003;Serial Number

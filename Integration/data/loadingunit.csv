@@ -1,0 +1,4 @@
+LoadingUnitID;Type;Weight (kg);Dimensions (cm);SSCC
+LU001;Box;12.5;40x30x20;12345670
+LU002;Pallet;250.0;120x100x150;98765432
+LU003;Box;8.0;35x25x15;56789012

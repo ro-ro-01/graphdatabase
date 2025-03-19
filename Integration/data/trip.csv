@@ -1,0 +1,3 @@
+TripID;ConsignmentID;Route Description;TransportMode
+T001;C001;"Port A;Port B;W01;W02;W03";Sea,Truck
+T002;C002;"Warehouse X;Hub Y;Store Z";Air Freight,Truck
