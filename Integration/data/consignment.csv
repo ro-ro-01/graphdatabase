@@ -1,3 +1,3 @@
-ConsignmentID;Consignor;Consignee;TransportMode;DepartureTime;PlaningArrivalTime;EstimateBestArrivalTime;ActualArrivalTime
-C001;ACC;C01;Air Freight;21/03/2025;20/03/2025 09:30;20/03/2025 09:30;20/03/2025 09:30
-C002;ACF;C02;Truck;22/03/2025;20/03/2025 09:30;20/03/2025 09:30;20/03/2025 09:30
+ConsignmentID;Consignor;ServiceProviderID;TransportMode;DepartureTime;PlaningArrivalTime;EstimateBestArrivalTime;ActualArrivalTime
+C001;ACC;SP001;Air Freight;21/03/2025;20/03/2025 09:30;20/03/2025 09:30;20/03/2025 09:30
+C002;ACF;SP002;Truck;22/03/2025;20/03/2025 09:30;20/03/2025 09:30;20/03/2025 09:30
