@@ -1,3 +1,3 @@
-ShipmentTradeItemID;ReferenceNumber
-TID001;ORD12345
-TID002;INV67890
+ShipmentItemAdditionalReferenceID;ShipmentTradeItemID;ReferenceNumber
+SIAR1;TID001;ORD12345
+SIAR2;TID002;INV67890
