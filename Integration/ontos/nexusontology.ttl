@@ -12,6 +12,12 @@
 #    Object Properties
 #################################################################
 
+###  http://neo4j.com/nexus/Has
+:Has rdf:type owl:ObjectProperty ;
+     rdfs:domain :Shipment ;
+     rdfs:range :Shipper .
+
+
 ###  http://neo4j.com/nexus//DeliverTo
 :DeliverTo rdf:type owl:ObjectProperty ;
            rdfs:domain :Shipment ;
@@ -26,7 +32,7 @@
 
 ###  http://neo4j.com/nexus//Has
 :Has rdf:type owl:ObjectProperty ;
-     rdfs:domain :Shipment ;
+     rdfs:domain :ShipmentTradeItem ;
      rdfs:range :AdditionalIdentifier ,
                 :DangerousGoodsInformation ,
                 :TradeItemDataDetail ,
