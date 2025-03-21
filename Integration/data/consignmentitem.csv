@@ -1,4 +1,4 @@
-ConsigmentItemID;ConsignmentID;SSCC;Quantity;Weight (kg);LoadingUnitID
+ConsignmentItemID;ConsignmentID;SSCC;Quantity;Weight (kg);LoadingUnitID
 CI001;C001;12345670;1;12.5;LU001
 CI002;C001;98765432;1;250.0;LU002
 CI003;C002;56789012;1;8.0;LU003
