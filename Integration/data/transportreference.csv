@@ -1,3 +1,3 @@
-TradeItemID;Mode;ServiceProvider;TrackingNumber
+ShipmentTradeItemID;Mode;ServiceProvider;TrackingNumber
 TID001;Air;SP01;DHL123456789
 TID002;Sea;SP02;MAE987654321

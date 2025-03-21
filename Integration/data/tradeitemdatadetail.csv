@@ -1,3 +1,3 @@
-TradeItemID;Description;Weight;Dimensions
+ShipmentTradeItemID;Description;Weight;Dimensions
 TID001;Cork Stopper NDTECH;0.3 kg;5x5x5 cm
 TID002;Cork Flooring;10 kg;100x50x1 cm
