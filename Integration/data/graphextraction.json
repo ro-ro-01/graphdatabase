@@ -1,0 +1,674 @@
+{
+        "Shipment": {
+            "id": "70727850570000107",
+            "label": "Shipment",
+            "CreatedBy": [
+                "dummy@mixmove.io"
+            ],
+            "CreatedOn": [
+                1740679578227
+            ],
+            "DeclaredValue": [
+                0
+            ],
+            "HazardousGoods": [
+                false
+            ],
+            "HazardousLimitedQuantity": [
+                false
+            ],
+            "HazardousSubstance": [
+                false
+            ],
+            "IncoTermCode": [
+                ""
+            ],
+            "IsComplete": [
+                false
+            ],
+            "OperationalStatus": [
+                0
+            ],
+            "PartitionKey": [
+                "70727850570000107"
+            ],
+            "PartyId": [
+                "7072785005612"
+            ],
+            "ReceiverCountryId": [
+                "GB"
+            ],
+            "ReceiverLocation": [
+                "Knottingley"
+            ],
+            "ReceiverName": [
+                "TJX WAKEFIELD (83)"
+            ],
+            "ReceiverPartyId": [
+                "83"
+            ],
+            "ReceiverPostalCode": [
+                "WF11 0AB"
+            ],
+            "ReceiverStreet": [
+                "Grovehall Lane"
+            ],
+            "SenderCountryId": [
+                "GB"
+            ],
+            "SenderLocation": [
+                "N/D"
+            ],
+            "SenderName": [
+                "TK Maxx"
+            ],
+            "SenderPartyId": [
+                "7072785005611"
+            ],
+            "SenderPostalCode": [
+                "N/D"
+            ],
+            "SenderStreet": [
+                "N/D"
+            ],
+            "ShipFromAdditional": [
+                "7072785005611"
+            ],
+            "ShipFromCountryId": [
+                "GB"
+            ],
+            "ShipFromGLN": [
+                "0000000000000"
+            ],
+            "ShipFromLocation": [
+                "N/D"
+            ],
+            "ShipFromName": [
+                "TK Maxx"
+            ],
+            "ShipFromPartyId": [
+                "7072785005611"
+            ],
+            "ShipFromPostalCode": [
+                "N/D"
+            ],
+            "ShipFromStreet": [
+                "N/D"
+            ],
+            "ShipmentId": [
+                "70727850570000107"
+            ],
+            "ShipperPartyId": [
+                "7072785005611"
+            ],
+            "ShipToAdditional": [
+                "83"
+            ],
+            "ShipToCountryId": [
+                "GB"
+            ],
+            "ShipToGLN": [
+                "0000000000000"
+            ],
+            "ShipToLocation": [
+                "Knottingley"
+            ],
+            "ShipToName": [
+                "TJX WAKEFIELD (83)"
+            ],
+            "ShipToPartyId": [
+                "83"
+            ],
+            "ShipToPostalCode": [
+                "WF11 0AB"
+            ],
+            "ShipToStreet": [
+                "Grovehall Lane"
+            ],
+            "SplitShipment": [
+                false
+            ],
+            "Status": [
+                1
+            ],
+            "TransportReferencesJson": [
+                "[{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"SRN\"},{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"AAO\"},{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"AAJ\"}]"
+            ]
+        },
+
+
+
+
+
+
+
+
+
+        "AdditionalIdentifiers": [{
+                "id": "7072785005612_50030910",
+                "label": "AdditionalIdentifier",
+                "type": "vertex",
+                "properties": {
+                    "AdditionalId": [{
+                            "id": "3833c237-1760-4ebc-86a0-e2da0fce846e",
+                            "value": "50030910"
+                        }
+                    ],
+                    "CreatedBy": [{
+                            "id": "0e98a1f5-4ac6-4bdd-afc9-24006ddae4db",
+                            "value": "dummy@mixmove.io"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "0782aae2-a0a9-4c6a-abb7-405697701aa2",
+                            "value": 1741175792084
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "5e41f742-9d9e-469a-93e9-887c44ba9634",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "Type": [{
+                            "id": "359b2416-8ab3-4eab-8652-f6c6a4f72d5e",
+                            "value": "CARRIER_ASSIGNED"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "7072785005612_50030910|PartitionKey",
+                            "value": "50030910"
+                        }
+                    ]
+                }
+            }
+        ],
+        "ShipmentItems": [{
+                "id": "70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF",
+                "label": "ShipmentItem",
+                "type": "vertex",
+                "properties": {
+                    "AdditionalTradeItem": [{
+                            "id": "d2c72723-e598-4e35-8708-bb24ba51cf9a",
+                            "value": "NOPROD"
+                        }
+                    ],
+                    "CreatedBy": [{
+                            "id": "2d5fceb5-ba76-4601-8a9d-29f27893eca0",
+                            "value": "dummy@mixmove.io"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "84893262-fee7-4054-ab48-1b6c9a37c6cd",
+                            "value": 1740679599009
+                        }
+                    ],
+                    "Description": [{
+                            "id": "e489d928-9a0a-4c44-a865-593d2f261a74",
+                            "value": ""
+                        }
+                    ],
+                    "GTIN": [{
+                            "id": "67a8882e-78f1-4dd8-8e6c-2fb2b7c9aeea",
+                            "value": "00000000000000"
+                        }
+                    ],
+                    "HashCode": [{
+                            "id": "ac3605ed-384f-4934-b12c-0c22d8329fa5",
+                            "value": "98516371A3304D4EB14D3EC6E9D434DF"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF|PartitionKey",
+                            "value": "70727850570000107"
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "6adaff36-0a22-4ae3-b6a9-919f5d20c5dc",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "Quantity": [{
+                            "id": "6eb51761-7c43-45e6-9c30-4d719c5cf460",
+                            "value": 1
+                        }
+                    ],
+                    "ShipmentId": [{
+                            "id": "46ca779d-c952-4ae7-b0a2-99e2a4cd6a13",
+                            "value": "70727850570000107"
+                        }
+                    ],
+                    "TransportReferencesJson": [{
+                            "id": "27666feb-28a9-4b4e-9a21-df72d5ab7346",
+                            "value": "[]"
+                        }
+                    ]
+                }
+            }
+        ],
+        "TradeItemDetails": [],
+        "LoadingUnits": [{
+                "id": "870727850570007874",
+                "label": "LoadingUnit",
+                "type": "vertex",
+                "properties": {
+                    "CreatedOn": [{
+                            "id": "06deda28-dd0c-4656-880c-fc9de1a4e909",
+                            "value": 1740679724286
+                        }
+                    ],
+                    "GrossWeight": [{
+                            "id": "5daeab1e-a0d5-4654-b6a1-6dfb444cdf86",
+                            "value": 20
+                        }
+                    ],
+                    "HazardousGoods": [{
+                            "id": "388fe5f0-8186-4690-af55-ce2dc432bb6a",
+                            "value": false
+                        }
+                    ],
+                    "HazardousLimitedQuantity": [{
+                            "id": "bf62fe36-4d55-4083-ab96-780be1a38a98",
+                            "value": false
+                        }
+                    ],
+                    "HazardousSubstance": [{
+                            "id": "63cf40ae-eee1-41a8-83c8-7281f7ce1788",
+                            "value": false
+                        }
+                    ],
+                    "Height": [{
+                            "id": "b208bec9-373e-4421-9f92-7bb7ca98e0fb",
+                            "value": 100
+                        }
+                    ],
+                    "Length": [{
+                            "id": "8b6acec0-8c43-4008-891e-f552048e529d",
+                            "value": 120
+                        }
+                    ],
+                    "LoadingUnitId": [{
+                            "id": "21f79ce0-0ad8-4d75-b78a-6f4db7149781",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "LoadingUnitType": [{
+                            "id": "9389e1f0-705d-46ef-8bab-0a48896f3f63",
+                            "value": "SPLT"
+                        }
+                    ],
+                    "NetWeight": [{
+                            "id": "7b716cb7-0187-4da0-869f-830a5e8071bd",
+                            "value": 20
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "6c4dd05b-1d52-42a0-bf20-3c682bb6d169",
+                            "value": "7072785005611"
+                        }
+                    ],
+                    "Status": [{
+                            "id": "7995ab82-9040-4167-a67b-0b0ddb4cd431",
+                            "value": 0
+                        }
+                    ],
+                    "Volume": [{
+                            "id": "54054393-0800-417b-8a2c-edac675ed557",
+                            "value": 0.9599999785423279
+                        }
+                    ],
+                    "Width": [{
+                            "id": "40483cfd-f1a2-4f8d-91e5-8dde521da177",
+                            "value": 80
+                        }
+                    ],
+                    "CreatedBy": [{
+                            "id": "5933eb60-09c8-4b29-86df-05308654f91f",
+                            "value": "dummy@mixmove.io"
+                        }
+                    ],
+                    "LastPositionLatitude": [{
+                            "id": "2e0c0ce2-21a0-4184-a6ea-eb9ec8c378df",
+                            "value": 0
+                        }
+                    ],
+                    "LastPositionLongitude": [{
+                            "id": "66411848-6594-477a-a676-9faf88f0d74e",
+                            "value": 0
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "870727850570007874|PartitionKey",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "ShipmentId": [{
+                            "id": "dd7641ef-80bd-4b2f-94e1-dc2dfc9a781b",
+                            "value": "70727850570000107"
+                        }
+                    ]
+                }
+            }
+        ],
+        "ConsignmentItems": [{
+                "id": "7072785057000006796_870727850570007874",
+                "label": "ConsignmentItem",
+                "type": "vertex",
+                "properties": {
+                    "ConsignmentId": [{
+                            "id": "ac9a5113-0fcc-4008-baf7-477315e27d55",
+                            "value": "7072785057000006796"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "1731f944-afdb-472f-abe0-d29170a6b44e",
+                            "value": 1740679724286
+                        }
+                    ],
+                    "IsEquipment": [{
+                            "id": "30a66e6c-4d6f-45b6-8cc5-7ff67611c515",
+                            "value": false
+                        }
+                    ],
+                    "IsOverSize": [{
+                            "id": "ca15a498-1b89-4946-99b7-2e9ed876097e",
+                            "value": false
+                        }
+                    ],
+                    "LoadingUnitId": [{
+                            "id": "07a63540-c181-43c1-9a12-faf0889d1297",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "7072785057000006796_870727850570007874|PartitionKey",
+                            "value": "7072785057000006796"
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "e08c666c-db90-4c2d-aa1c-1128f6c01ad6",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "Status": [{
+                            "id": "482ebdd7-da8c-44b2-8e44-d3ae2ec3c844",
+                            "value": 0
+                        }
+                    ]
+                }
+            }, {
+                "id": "7072785057000006789_870727850570007874",
+                "label": "ConsignmentItem",
+                "type": "vertex",
+                "properties": {
+                    "ConsignmentId": [{
+                            "id": "b46403c2-b146-46e4-b1b2-630fe4d82739",
+                            "value": "7072785057000006789"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "100c1ce6-be30-4c13-88fe-7183b75ac383",
+                            "value": 1740679599050
+                        }
+                    ],
+                    "IsEquipment": [{
+                            "id": "8950bdd3-b39a-4bac-a470-b8550e14d963",
+                            "value": false
+                        }
+                    ],
+                    "IsOverSize": [{
+                            "id": "038ee92e-1c0b-4cc1-98db-ef56d0c3a414",
+                            "value": false
+                        }
+                    ],
+                    "LoadingUnitId": [{
+                            "id": "f38461c9-9b97-4615-85aa-abc272ed95f9",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "7072785057000006789_870727850570007874|PartitionKey",
+                            "value": "7072785057000006789"
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "00fc6ec2-2b34-42ef-9ec4-0bef6d24a675",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "Status": [{
+                            "id": "f8f3afcf-ad0e-42eb-a1c6-00e7961e936a",
+                            "value": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "Consignments": {
+            "id": "7072785057000006796",
+            "label": "Consignment",
+            "type": "vertex",
+            "properties": {
+                "AgreementOwnerId": [{
+                        "id": "8a3af0c9-9021-4df3-ac92-71f7af1a025d",
+                        "value": "7072785005612"
+                    }
+                ],
+                "AlternativeRequestedDeliveryFromTicks": [{
+                        "id": "5a7caa43-e3b4-473e-9607-5e9960026dac",
+                        "value": 0
+                    }
+                ],
+                "AlternativeRequestedDeliveryToTicks": [{
+                        "id": "e4a65bdc-d288-49b5-9ccc-9350778a5f6f",
+                        "value": 0
+                    }
+                ],
+                "AlternativeRequestedPickupFromTicks": [{
+                        "id": "cd5aff44-5e68-47ec-91ee-2de09e16c638",
+                        "value": 0
+                    }
+                ],
+                "AlternativeRequestedPickupToTicks": [{
+                        "id": "c9329f58-24d7-4393-91f6-0eef1836aa53",
+                        "value": 0
+                    }
+                ],
+                "BuyerPartyId": [{
+                        "id": "9700a354-0342-43be-981f-f62e489d0eb3",
+                        "value": "7072785005611"
+                    }
+                ],
+                "CarrierPartyId": [{
+                        "id": "33c7d25a-a036-4c4f-b888-0e9f901a6261",
+                        "value": "7072785005612"
+                    }
+                ],
+                "CarrierServiceCode": [{
+                        "id": "f3e14842-1af1-4bd7-aea6-def709f0cf93",
+                        "value": "INBOUND"
+                    }
+                ],
+                "ConsigneeCountryId": [{
+                        "id": "ff98630b-fe14-4ba6-a1bd-2346290c4aa5",
+                        "value": "GB"
+                    }
+                ],
+                "ConsigneeLocation": [{
+                        "id": "330340df-98c2-4363-8379-9cb6c4282c13",
+                        "value": "Knottingley"
+                    }
+                ],
+                "ConsigneeName": [{
+                        "id": "f13a92b0-d7b4-465a-a9d2-062e7be9d469",
+                        "value": "TJX WAKEFIELD (83)"
+                    }
+                ],
+                "ConsigneePartyId": [{
+                        "id": "df19360b-3112-4878-9a70-02be0bec0f1e",
+                        "value": "83"
+                    }
+                ],
+                "ConsigneePostalCode": [{
+                        "id": "51574706-77ab-4183-97a4-29066b90ad47",
+                        "value": "WF11 0AB"
+                    }
+                ],
+                "ConsigneeStreet": [{
+                        "id": "f4112ab8-97ca-4f6c-912f-7814e87afa75",
+                        "value": "Grovehall Lane"
+                    }
+                ],
+                "ConsignmentId": [{
+                        "id": "09053f7d-bcc6-40e6-9a4d-7acac7c582bc",
+                        "value": "7072785057000006796"
+                    }
+                ],
+                "ConsignorCountryId": [{
+                        "id": "a3752b76-aef1-4372-89ec-2d11456758d6",
+                        "value": "GB"
+                    }
+                ],
+                "ConsignorLocation": [{
+                        "id": "ba5aa9d4-2d76-408a-98a4-08236bea8b84",
+                        "value": "N/D"
+                    }
+                ],
+                "ConsignorName": [{
+                        "id": "29875ee2-2815-49fd-8ed4-902e5c9b3b04",
+                        "value": "TK Maxx"
+                    }
+                ],
+                "ConsignorPartyId": [{
+                        "id": "a48f457e-b3cd-4e15-a441-abc9fcc39ed8",
+                        "value": "7072785005611"
+                    }
+                ],
+                "ConsignorPostalCode": [{
+                        "id": "6e1d392c-1432-4b3c-94fd-d820edfd29fb",
+                        "value": "N/D"
+                    }
+                ],
+                "ConsignorStreet": [{
+                        "id": "1630e7c4-836b-47f3-8f05-b475faaf2f1f",
+                        "value": "N/D"
+                    }
+                ],
+                "CreatedBy": [{
+                        "id": "660246f8-ba08-4a2d-84ba-5446716628b3",
+                        "value": "WriteTrigger"
+                    }
+                ],
+                "CreatedOn": [{
+                        "id": "1e6d3552-7ac5-4147-895a-f39527323676",
+                        "value": 1740679724286
+                    }
+                ],
+                "PartyId": [{
+                        "id": "8f9c8ca9-43d2-470c-afba-ba8dece57e6b",
+                        "value": "7072785005612"
+                    }
+                ],
+                "RequestedDeliveryFromTicks": [{
+                        "id": "72cc4663-d0b4-4596-a0e3-f6f20a783bfe",
+                        "value": 0
+                    }
+                ],
+                "RequestedDeliveryToTicks": [{
+                        "id": "66f4faba-e151-44b3-a124-41ffbc2dddd9",
+                        "value": 0
+                    }
+                ],
+                "RequestedPickupFromTicks": [{
+                        "id": "1512eb8f-4d6f-455f-842f-fc40e70ed6c6",
+                        "value": 0
+                    }
+                ],
+                "RequestedPickupToTicks": [{
+                        "id": "4ccaca4e-c690-43a6-b800-859eb5390026",
+                        "value": 0
+                    }
+                ],
+                "ShipperPartyId": [{
+                        "id": "91d6f645-dafa-4f18-9df2-acc1c5ef2036",
+                        "value": "7072785005611"
+                    }
+                ],
+                "Status": [{
+                        "id": "f9830f12-36be-497b-9933-7c9c36f9db0f",
+                        "value": 0
+                    }
+                ],
+                "TransportDeliveryLocationId": [{
+                        "id": "d627fe9c-2fd5-45da-8c9b-863a6ea51c53",
+                        "value": "83"
+                    }
+                ],
+                "PartitionKey": [{
+                        "id": "7072785057000006796|PartitionKey",
+                        "value": "7072785057000006796"
+                    }
+                ]
+            }
+        },
+        "Edges": [{
+                "id": "70727850570000107_7072785005612_50030910",
+                "label": "Alias",
+                "type": "edge",
+                "inVLabel": "AdditionalIdentifier",
+                "outVLabel": "Shipment",
+                "inV": "7072785005612_50030910",
+                "outV": "70727850570000107"
+            }, {
+                "id": "70727850570000107_70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF",
+                "label": "Ship",
+                "type": "edge",
+                "inVLabel": "ShipmentItem",
+                "outVLabel": "Shipment",
+                "inV": "70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF",
+                "outV": "70727850570000107"
+            }, {
+                "id": "70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF_870727850570007874",
+                "label": "Packed",
+                "type": "edge",
+                "inVLabel": "LoadingUnit",
+                "outVLabel": "ShipmentItem",
+                "inV": "870727850570007874",
+                "outV": "70727850570000107_00000000000000_NOPROD_98516371A3304D4EB14D3EC6E9D434DF",
+                "properties": {
+                    "Quantity": 1
+                }
+            }, {
+                "id": "7072785057000006796_870727850570007874_870727850570007874",
+                "label": "Is",
+                "type": "edge",
+                "inVLabel": "LoadingUnit",
+                "outVLabel": "ConsignmentItem",
+                "inV": "870727850570007874",
+                "outV": "7072785057000006796_870727850570007874"
+            }, {
+                "id": "7072785057000006789_870727850570007874_870727850570007874",
+                "label": "Is",
+                "type": "edge",
+                "inVLabel": "LoadingUnit",
+                "outVLabel": "ConsignmentItem",
+                "inV": "870727850570007874",
+                "outV": "7072785057000006789_870727850570007874"
+            }, {
+                "id": "7072785057000006796_7072785057000006796_870727850570007874",
+                "label": "Transport",
+                "type": "edge",
+                "inVLabel": "ConsignmentItem",
+                "outVLabel": "Consignment",
+                "inV": "7072785057000006796_870727850570007874",
+                "outV": "7072785057000006796"
+            }, {
+                "id": "7072785057000006789_7072785057000006789_870727850570007874",
+                "label": "Transport",
+                "type": "edge",
+                "inVLabel": "ConsignmentItem",
+                "outVLabel": "Consignment",
+                "inV": "7072785057000006789_870727850570007874",
+                "outV": "7072785057000006789"
+            }
+        ]
+    }
