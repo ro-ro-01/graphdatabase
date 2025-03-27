@@ -1,0 +1,232 @@
+@prefix : <http://neo4j.com/nexus//> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://neo4j.com/nexus//> .
+
+<http://neo4j.com/nexus/> rdf:type owl:Ontology .
+#################################################################
+#    Object Properties (Relationships)
+#################################################################
+
+###  http://neo4j.com/nexus/HasSender
+:HasSender rdf:type owl:ObjectProperty ;
+           rdfs:domain :Shipment ;
+           rdfs:range :Sender .
+
+###  http://neo4j.com/nexus/HasReceiver
+:HasReceiver rdf:type owl:ObjectProperty ;
+             rdfs:domain :Shipment ;
+             rdfs:range :Receiver .
+
+###  http://neo4j.com/nexus/HasShipper
+:HasShipper rdf:type owl:ObjectProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range :Shipper .
+
+###  http://neo4j.com/nexus/HasShipFrom
+:HasShipFrom rdf:type owl:ObjectProperty ;
+             rdfs:domain :Shipment ;
+             rdfs:range :ShipFrom .
+
+###  http://neo4j.com/nexus/HasShipTo
+:HasShipTo rdf:type owl:ObjectProperty ;
+           rdfs:domain :Shipment ;
+           rdfs:range :ShipTo .
+
+#################################################################
+#    Data Properties (Attributes)
+#################################################################
+
+### Shipment Properties
+:ShipmentId rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range xsd:string .
+
+:CreatedBy rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Shipment ;
+           rdfs:range xsd:string .
+
+:CreatedOn rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Shipment ;
+           rdfs:range xsd:dateTime .
+
+:DeclaredValue rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:decimal .
+
+:HazardousGoods rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:boolean .
+
+:HazardousLimitedQuantity rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Shipment ;
+                          rdfs:range xsd:boolean .
+
+:HazardousSubstance rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Shipment ;
+                    rdfs:range xsd:boolean .
+
+:IncoTermCode rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+:IsComplete rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range xsd:boolean .
+
+:OperationalStatus rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Shipment ;
+                   rdfs:range xsd:integer .
+
+:SplitShipment rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Shipment ;
+               rdfs:range xsd:boolean .
+
+:Status rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Shipment ;
+        rdfs:range xsd:integer .
+
+:TransportReferencesJson rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Shipment ;
+                         rdfs:range xsd:string .
+
+### Sender Properties
+:SenderCountryId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Sender ;
+                 rdfs:range xsd:string .
+
+:SenderLocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Sender ;
+                rdfs:range xsd:string .
+
+:SenderName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Sender ;
+            rdfs:range xsd:string .
+
+:SenderPartyId rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Sender ;
+               rdfs:range xsd:string .
+
+:SenderPostalCode rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Sender ;
+                  rdfs:range xsd:string .
+
+:SenderStreet rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Sender ;
+              rdfs:range xsd:string .
+
+### Receiver Properties
+:ReceiverCountryId rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Receiver ;
+                   rdfs:range xsd:string .
+
+:ReceiverLocation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Receiver ;
+                  rdfs:range xsd:string .
+
+:ReceiverName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Receiver ;
+              rdfs:range xsd:string .
+
+:ReceiverPartyId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Receiver ;
+                 rdfs:range xsd:string .
+
+:ReceiverPostalCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Receiver ;
+                    rdfs:range xsd:string .
+
+:ReceiverStreet rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Receiver ;
+                rdfs:range xsd:string .
+
+### ShipFrom Properties
+:ShipFromAdditional rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :ShipFrom ;
+                    rdfs:range xsd:string .
+
+:ShipFromCountryId rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :ShipFrom ;
+                   rdfs:range xsd:string .
+
+:ShipFromGLN rdf:type owl:DatatypeProperty ;
+             rdfs:domain :ShipFrom ;
+             rdfs:range xsd:string .
+
+:ShipFromLocation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :ShipFrom ;
+                  rdfs:range xsd:string .
+
+:ShipFromName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :ShipFrom ;
+              rdfs:range xsd:string .
+
+:ShipFromPartyId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :ShipFrom ;
+                 rdfs:range xsd:string .
+
+:ShipFromPostalCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :ShipFrom ;
+                    rdfs:range xsd:string .
+
+:ShipFromStreet rdf:type owl:DatatypeProperty ;
+                rdfs:domain :ShipFrom ;
+                rdfs:range xsd:string .
+
+### ShipTo Properties
+:ShipToAdditional rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :ShipTo ;
+                  rdfs:range xsd:string .
+
+:ShipToCountryId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :ShipTo ;
+                 rdfs:range xsd:string .
+
+:ShipToGLN rdf:type owl:DatatypeProperty ;
+           rdfs:domain :ShipTo ;
+           rdfs:range xsd:string .
+
+:ShipToLocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :ShipTo ;
+                rdfs:range xsd:string .
+
+:ShipToName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :ShipTo ;
+            rdfs:range xsd:string .
+
+:ShipToPartyId rdf:type owl:DatatypeProperty ;
+               rdfs:domain :ShipTo ;
+               rdfs:range xsd:string .
+
+:ShipToPostalCode rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :ShipTo ;
+                  rdfs:range xsd:string .
+
+:ShipToStreet rdf:type owl:DatatypeProperty ;
+              rdfs:domain :ShipTo ;
+              rdfs:range xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://neo4j.com/nexus/Shipment
+:Shipment rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/Sender
+:Sender rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/Receiver
+:Receiver rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/Shipper
+:Shipper rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/ShipFrom
+:ShipFrom rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/ShipTo
+:ShipTo rdf:type owl:Class .
