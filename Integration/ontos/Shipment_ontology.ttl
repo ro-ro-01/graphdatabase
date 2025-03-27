@@ -208,7 +208,7 @@
        rdfs:range xsd:string .
 
 ###  http://neo4j.com/nexus/ShipmentId
-:ShipmentId rdf:type owl:DatatypeProperty ;
+:id rdf:type owl:DatatypeProperty ;
        rdfs:domain :Shipment ;
        rdfs:range xsd:string .
 
