@@ -44,6 +44,6 @@
 #    Classes
 #################################################################
 
-###  http://neo4j.com/nexus/AdditionalIdentifiers
+###  http://neo4j.com/nexus/AdditionalIdentifier
 :AdditionalIdentifier rdf:type owl:Class .
 
