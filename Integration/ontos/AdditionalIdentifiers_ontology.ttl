@@ -1,0 +1,49 @@
+@prefix : <http://neo4j.com/nexus//> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://neo4j.com/nexus//> .
+
+<http://neo4j.com/nexus/> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://neo4j.com/nexus/AdditionalId
+:AdditionalId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/AdditionalIdentifiersId
+:AdditionalIdentifiersId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus/Type
+:Type rdf:type owl:DatatypeProperty ;
+       rdfs:domain :AdditionalIdentifier .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://neo4j.com/nexus/AdditionalIdentifiers
+:AdditionalIdentifiers rdf:type owl:Class .
+
