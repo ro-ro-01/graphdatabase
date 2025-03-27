@@ -1,0 +1,138 @@
+{
+    "Shipment": {
+        "id": "70727850570000107",
+        "label": "Shipment",
+        "CreatedBy": [
+            "dummy@mixmove.io"
+        ],
+        "CreatedOn": [
+            1740679578227
+        ],
+        "DeclaredValue": [
+            0
+        ],
+        "HazardousGoods": [
+            false
+        ],
+        "HazardousLimitedQuantity": [
+            false
+        ],
+        "HazardousSubstance": [
+            false
+        ],
+        "IncoTermCode": [
+            ""
+        ],
+        "IsComplete": [
+            false
+        ],
+        "OperationalStatus": [
+            0
+        ],
+        "PartitionKey": [
+            "70727850570000107"
+        ],
+        "PartyId": [
+            "7072785005612"
+        ],
+        "ReceiverCountryId": [
+            "GB"
+        ],
+        "ReceiverLocation": [
+            "Knottingley"
+        ],
+        "ReceiverName": [
+            "TJX WAKEFIELD (83)"
+        ],
+        "ReceiverPartyId": [
+            "83"
+        ],
+        "ReceiverPostalCode": [
+            "WF11 0AB"
+        ],
+        "ReceiverStreet": [
+            "Grovehall Lane"
+        ],
+        "SenderCountryId": [
+            "GB"
+        ],
+        "SenderLocation": [
+            "N/D"
+        ],
+        "SenderName": [
+            "TK Maxx"
+        ],
+        "SenderPartyId": [
+            "7072785005611"
+        ],
+        "SenderPostalCode": [
+            "N/D"
+        ],
+        "SenderStreet": [
+            "N/D"
+        ],
+        "ShipFromAdditional": [
+            "7072785005611"
+        ],
+        "ShipFromCountryId": [
+            "GB"
+        ],
+        "ShipFromGLN": [
+            "0000000000000"
+        ],
+        "ShipFromLocation": [
+            "N/D"
+        ],
+        "ShipFromName": [
+            "TK Maxx"
+        ],
+        "ShipFromPartyId": [
+            "7072785005611"
+        ],
+        "ShipFromPostalCode": [
+            "N/D"
+        ],
+        "ShipFromStreet": [
+            "N/D"
+        ],
+        "ShipmentId": [
+            "70727850570000107"
+        ],
+        "ShipperPartyId": [
+            "7072785005611"
+        ],
+        "ShipToAdditional": [
+            "83"
+        ],
+        "ShipToCountryId": [
+            "GB"
+        ],
+        "ShipToGLN": [
+            "0000000000000"
+        ],
+        "ShipToLocation": [
+            "Knottingley"
+        ],
+        "ShipToName": [
+            "TJX WAKEFIELD (83)"
+        ],
+        "ShipToPartyId": [
+            "83"
+        ],
+        "ShipToPostalCode": [
+            "WF11 0AB"
+        ],
+        "ShipToStreet": [
+            "Grovehall Lane"
+        ],
+        "SplitShipment": [
+            false
+        ],
+        "Status": [
+            1
+        ],
+        "TransportReferencesJson": [
+            "[{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"SRN\"},{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"AAO\"},{\"EntityIdentification\":\"70727850570000107\",\"TransportReferenceTypeCode\":\"AAJ\"}]"
+        ]
+    } 
+ }

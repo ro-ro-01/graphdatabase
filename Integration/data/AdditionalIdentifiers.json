@@ -1,0 +1,41 @@
+{
+  
+    "AdditionalIdentifiers": [{
+        "id": "7072785005612_50030910",
+        "label": "AdditionalIdentifier",
+        "type": "vertex",
+        "properties": {
+            "AdditionalId": [{
+                    "id": "3833c237-1760-4ebc-86a0-e2da0fce846e",
+                    "value": "50030910"
+                }
+            ],
+            "CreatedBy": [{
+                    "id": "0e98a1f5-4ac6-4bdd-afc9-24006ddae4db",
+                    "value": "dummy@mixmove.io"
+                }
+            ],
+            "CreatedOn": [{
+                    "id": "0782aae2-a0a9-4c6a-abb7-405697701aa2",
+                    "value": 1741175792084
+                }
+            ],
+            "PartyId": [{
+                    "id": "5e41f742-9d9e-469a-93e9-887c44ba9634",
+                    "value": "7072785005612"
+                }
+            ],
+            "Type": [{
+                    "id": "359b2416-8ab3-4eab-8652-f6c6a4f72d5e",
+                    "value": "CARRIER_ASSIGNED"
+                }
+            ],
+            "PartitionKey": [{
+                    "id": "7072785005612_50030910|PartitionKey",
+                    "value": "50030910"
+                }
+            ]
+        }
+    }
+]
+    } 
