@@ -27,7 +27,6 @@
      rdfs:domain :ShipmentItem ;
      rdfs:range :Shipment .
 
-
 ###  http://neo4j.com/nexus//IsPackedIn
 :IsPackedIn rdf:type owl:ObjectProperty ;
      rdfs:domain :ShipmentItem ;
