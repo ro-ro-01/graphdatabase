@@ -323,8 +323,16 @@
 :AdditionalTradeItem rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
+###  http://neo4j.com/nexus/CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
 ###  http://neo4j.com/nexus/CreatedOn
 :CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/Description
+:Description rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
 ###  http://neo4j.com/nexus/GTIN
@@ -333,10 +341,6 @@
 
 ###  http://neo4j.com/nexus/HashCode
 :HashCode rdf:type owl:DatatypeProperty ;
-       rdfs:domain :ShipmentItem .
-       
-###  http://neo4j.com/nexus/PartitionKey
-:PartitionKey rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
 
@@ -348,13 +352,25 @@
 :Quantity rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
-###  http://neo4j.com/nexus/TransportReferencesJson
-:TransportReferencesJson rdf:type owl:DatatypeProperty ;
+###  http://neo4j.com/nexus/ShipmentId
+:ShipmentId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/ShipmentItemId
+:ShipmentItemId rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
 
 ###  http://neo4j.com/nexus/TradeItemDescription
 :TradeItemDescription rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/TransportReferencesJson
+:TransportReferencesJson rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/LineItemNumber
+:LineItemNumber rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
 
 ###  http://neo4j.com/nexus/AICodes
@@ -381,6 +397,11 @@
 :RealId rdf:type owl:DatatypeProperty ;
        rdfs:domain :ShipmentItem .
        
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+
 #################################################################
 #    Classes
 #################################################################
