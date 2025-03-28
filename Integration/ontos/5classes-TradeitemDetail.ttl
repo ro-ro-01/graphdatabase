@@ -38,6 +38,11 @@
      rdfs:domain :LoadingUnit ;
      rdfs:range :ShipmentItem .
 
+###  http://neo4j.com/nexus//Has
+:Has rdf:type owl:ObjectProperty ;
+     rdfs:domain :ShipmentItem ;
+     rdfs:range :TradeItemDetail .
+
 
 
 
