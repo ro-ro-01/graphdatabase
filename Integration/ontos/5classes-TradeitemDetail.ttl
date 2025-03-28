@@ -12,7 +12,7 @@
 #    Object Properties
 #################################################################
 
-###  http://neo4j.com/nexus//Has
+###  http://neo4j.com/nexus//Has1
 :Has rdf:type owl:ObjectProperty ;
      rdfs:domain :Shipment ;
      rdfs:range :AdditionalIdentifier .
@@ -38,7 +38,7 @@
      rdfs:domain :LoadingUnit ;
      rdfs:range :ShipmentItem .
 
-###  http://neo4j.com/nexus//Has
+###  http://neo4j.com/nexus//Has2
 :Has rdf:type owl:ObjectProperty ;
      rdfs:domain :ShipmentItem ;
      rdfs:range :TradeItemDataDetail .
