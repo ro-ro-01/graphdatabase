@@ -1,0 +1,11 @@
+ {{
+    "id": "70727850570000107_7072785005612_50030910",
+    "label": "Alias",
+    "type": "edge",
+    "inVLabel": "AdditionalIdentifier",
+    "outVLabel": "Shipment",
+    "inV": "7072785005612_50030910",
+    "outV": "70727850570000107"
+}
+
+            } 

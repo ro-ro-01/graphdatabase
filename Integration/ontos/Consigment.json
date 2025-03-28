@@ -1,0 +1,168 @@
+ {        "Consignments": {
+    "id": "7072785057000006796",
+    "label": "Consignment",
+    "type": "vertex",
+    "properties": {
+        "AgreementOwnerId": [{
+                "id": "8a3af0c9-9021-4df3-ac92-71f7af1a025d",
+                "value": "7072785005612"
+            }
+        ],
+        "AlternativeRequestedDeliveryFromTicks": [{
+                "id": "5a7caa43-e3b4-473e-9607-5e9960026dac",
+                "value": 0
+            }
+        ],
+        "AlternativeRequestedDeliveryToTicks": [{
+                "id": "e4a65bdc-d288-49b5-9ccc-9350778a5f6f",
+                "value": 0
+            }
+        ],
+        "AlternativeRequestedPickupFromTicks": [{
+                "id": "cd5aff44-5e68-47ec-91ee-2de09e16c638",
+                "value": 0
+            }
+        ],
+        "AlternativeRequestedPickupToTicks": [{
+                "id": "c9329f58-24d7-4393-91f6-0eef1836aa53",
+                "value": 0
+            }
+        ],
+        "BuyerPartyId": [{
+                "id": "9700a354-0342-43be-981f-f62e489d0eb3",
+                "value": "7072785005611"
+            }
+        ],
+        "CarrierPartyId": [{
+                "id": "33c7d25a-a036-4c4f-b888-0e9f901a6261",
+                "value": "7072785005612"
+            }
+        ],
+        "CarrierServiceCode": [{
+                "id": "f3e14842-1af1-4bd7-aea6-def709f0cf93",
+                "value": "INBOUND"
+            }
+        ],
+        "ConsigneeCountryId": [{
+                "id": "ff98630b-fe14-4ba6-a1bd-2346290c4aa5",
+                "value": "GB"
+            }
+        ],
+        "ConsigneeLocation": [{
+                "id": "330340df-98c2-4363-8379-9cb6c4282c13",
+                "value": "Knottingley"
+            }
+        ],
+        "ConsigneeName": [{
+                "id": "f13a92b0-d7b4-465a-a9d2-062e7be9d469",
+                "value": "TJX WAKEFIELD (83)"
+            }
+        ],
+        "ConsigneePartyId": [{
+                "id": "df19360b-3112-4878-9a70-02be0bec0f1e",
+                "value": "83"
+            }
+        ],
+        "ConsigneePostalCode": [{
+                "id": "51574706-77ab-4183-97a4-29066b90ad47",
+                "value": "WF11 0AB"
+            }
+        ],
+        "ConsigneeStreet": [{
+                "id": "f4112ab8-97ca-4f6c-912f-7814e87afa75",
+                "value": "Grovehall Lane"
+            }
+        ],
+        "ConsignmentId": [{
+                "id": "09053f7d-bcc6-40e6-9a4d-7acac7c582bc",
+                "value": "7072785057000006796"
+            }
+        ],
+        "ConsignorCountryId": [{
+                "id": "a3752b76-aef1-4372-89ec-2d11456758d6",
+                "value": "GB"
+            }
+        ],
+        "ConsignorLocation": [{
+                "id": "ba5aa9d4-2d76-408a-98a4-08236bea8b84",
+                "value": "N/D"
+            }
+        ],
+        "ConsignorName": [{
+                "id": "29875ee2-2815-49fd-8ed4-902e5c9b3b04",
+                "value": "TK Maxx"
+            }
+        ],
+        "ConsignorPartyId": [{
+                "id": "a48f457e-b3cd-4e15-a441-abc9fcc39ed8",
+                "value": "7072785005611"
+            }
+        ],
+        "ConsignorPostalCode": [{
+                "id": "6e1d392c-1432-4b3c-94fd-d820edfd29fb",
+                "value": "N/D"
+            }
+        ],
+        "ConsignorStreet": [{
+                "id": "1630e7c4-836b-47f3-8f05-b475faaf2f1f",
+                "value": "N/D"
+            }
+        ],
+        "CreatedBy": [{
+                "id": "660246f8-ba08-4a2d-84ba-5446716628b3",
+                "value": "WriteTrigger"
+            }
+        ],
+        "CreatedOn": [{
+                "id": "1e6d3552-7ac5-4147-895a-f39527323676",
+                "value": 1740679724286
+            }
+        ],
+        "PartyId": [{
+                "id": "8f9c8ca9-43d2-470c-afba-ba8dece57e6b",
+                "value": "7072785005612"
+            }
+        ],
+        "RequestedDeliveryFromTicks": [{
+                "id": "72cc4663-d0b4-4596-a0e3-f6f20a783bfe",
+                "value": 0
+            }
+        ],
+        "RequestedDeliveryToTicks": [{
+                "id": "66f4faba-e151-44b3-a124-41ffbc2dddd9",
+                "value": 0
+            }
+        ],
+        "RequestedPickupFromTicks": [{
+                "id": "1512eb8f-4d6f-455f-842f-fc40e70ed6c6",
+                "value": 0
+            }
+        ],
+        "RequestedPickupToTicks": [{
+                "id": "4ccaca4e-c690-43a6-b800-859eb5390026",
+                "value": 0
+            }
+        ],
+        "ShipperPartyId": [{
+                "id": "91d6f645-dafa-4f18-9df2-acc1c5ef2036",
+                "value": "7072785005611"
+            }
+        ],
+        "Status": [{
+                "id": "f9830f12-36be-497b-9933-7c9c36f9db0f",
+                "value": 0
+            }
+        ],
+        "TransportDeliveryLocationId": [{
+                "id": "d627fe9c-2fd5-45da-8c9b-863a6ea51c53",
+                "value": "83"
+            }
+        ],
+        "PartitionKey": [{
+                "id": "7072785057000006796|PartitionKey",
+                "value": "7072785057000006796"
+            }
+        ]
+    }
+}
+            } 
