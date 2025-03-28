@@ -35,7 +35,7 @@
 ###  http://neo4j.com/nexus//Packs
 :Packs rdf:type owl:ObjectProperty ;
      rdfs:domain :LoadingUnit ;
-     rdfs:range : ShipmentItem .
+     rdfs:range :ShipmentItem .
 
 
 #################################################################
