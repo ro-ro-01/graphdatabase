@@ -1,0 +1,77 @@
+{ "TradeItemDetails": [{
+                "id": "4332746_00000000000000_NOPROD_79CBA1185463850DEDBA31F172F1DC5B_countryOfOrigin",
+                "label": "TradeItemDataDetail",
+                "type": "vertex",
+                "properties": {
+                    "ShipmentId": [{
+                            "id": "f8559832-94d7-48e7-b1e3-7b6138f7e5b8",
+                            "value": "4332746"
+                        }
+                    ],
+                    "GTIN": [{
+                            "id": "41de61f5-85ac-492c-b175-98623d991b99",
+                            "value": "00000000000000"
+                        }
+                    ],
+                    "AdditionalTradeItemIdentification": [{
+                            "id": "b43eb7ca-b654-465c-9d25-36baf836afc0",
+                            "value": "NOPROD"
+                        }
+                    ],
+                    "HashCode": [{
+                            "id": "29c1ee8d-6628-43e7-b7e9-93e3e3dec53a",
+                            "value": "79CBA1185463850DEDBA31F172F1DC5B"
+                        }
+                    ],
+                    "Field": [{
+                            "id": "3c32e27f-1c6b-4c99-95b0-5541a6243072",
+                            "value": "countryOfOrigin"
+                        }
+                    ],
+                    "Value": [{
+                            "id": "2e46d5af-459c-47ff-9616-a7c63f5416ef",
+                            "value": "GB"
+                        }
+                    ],
+                    "AIId": [{
+                            "id": "4251bd96-baa8-417c-b753-fb26fae2d498",
+                            "value": 0
+                        }
+                    ],
+                    "Qualifier": [{
+                            "id": "871fd71d-b631-492b-baa1-42d274a246e6",
+                            "value": "MissingMapping"
+                        }
+                    ],
+                    "Id": [{
+                            "id": "9432665f-370a-44ff-9ef9-b78e9dfd9605",
+                            "value": "4332746_00000000000000_NOPROD_79CBA1185463850DEDBA31F172F1DC5B_countryOfOrigin"
+                        }
+                    ],
+                    "RealId": [{
+                            "id": "a9c93c22-046f-430a-ad5a-4fbda0dd7a6e",
+                            "value": "____countryOfOrigin"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "4332746_00000000000000_NOPROD_79CBA1185463850DEDBA31F172F1DC5B_countryOfOrigin|PartitionKey",
+                            "value": "4332746"
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "59141d4c-7a85-4a50-bf68-2ae3479bc6fe",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "CreatedBy": [{
+                            "id": "f733f092-4194-420a-8aa5-22e91dc36f80",
+                            "value": "IntegrationApi"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "76752068-c012-47c0-b053-6ae23e91b27b",
+                            "value": 1742298872629
+                        }
+                    ]
+                }
+            }]}

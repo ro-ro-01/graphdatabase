@@ -1,0 +1,103 @@
+{ "LoadingUnits": [{
+                "id": "870727850570007874",
+                "label": "LoadingUnit",
+                "type": "vertex",
+                "properties": {
+                    "CreatedOn": [{
+                            "id": "06deda28-dd0c-4656-880c-fc9de1a4e909",
+                            "value": 1740679724286
+                        }
+                    ],
+                    "GrossWeight": [{
+                            "id": "5daeab1e-a0d5-4654-b6a1-6dfb444cdf86",
+                            "value": 20
+                        }
+                    ],
+                    "HazardousGoods": [{
+                            "id": "388fe5f0-8186-4690-af55-ce2dc432bb6a",
+                            "value": false
+                        }
+                    ],
+                    "HazardousLimitedQuantity": [{
+                            "id": "bf62fe36-4d55-4083-ab96-780be1a38a98",
+                            "value": false
+                        }
+                    ],
+                    "HazardousSubstance": [{
+                            "id": "63cf40ae-eee1-41a8-83c8-7281f7ce1788",
+                            "value": false
+                        }
+                    ],
+                    "Height": [{
+                            "id": "b208bec9-373e-4421-9f92-7bb7ca98e0fb",
+                            "value": 100
+                        }
+                    ],
+                    "Length": [{
+                            "id": "8b6acec0-8c43-4008-891e-f552048e529d",
+                            "value": 120
+                        }
+                    ],
+                    "LoadingUnitId": [{
+                            "id": "21f79ce0-0ad8-4d75-b78a-6f4db7149781",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "LoadingUnitType": [{
+                            "id": "9389e1f0-705d-46ef-8bab-0a48896f3f63",
+                            "value": "SPLT"
+                        }
+                    ],
+                    "NetWeight": [{
+                            "id": "7b716cb7-0187-4da0-869f-830a5e8071bd",
+                            "value": 20
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "6c4dd05b-1d52-42a0-bf20-3c682bb6d169",
+                            "value": "7072785005611"
+                        }
+                    ],
+                    "Status": [{
+                            "id": "7995ab82-9040-4167-a67b-0b0ddb4cd431",
+                            "value": 0
+                        }
+                    ],
+                    "Volume": [{
+                            "id": "54054393-0800-417b-8a2c-edac675ed557",
+                            "value": 0.9599999785423279
+                        }
+                    ],
+                    "Width": [{
+                            "id": "40483cfd-f1a2-4f8d-91e5-8dde521da177",
+                            "value": 80
+                        }
+                    ],
+                    "CreatedBy": [{
+                            "id": "5933eb60-09c8-4b29-86df-05308654f91f",
+                            "value": "dummy@mixmove.io"
+                        }
+                    ],
+                    "LastPositionLatitude": [{
+                            "id": "2e0c0ce2-21a0-4184-a6ea-eb9ec8c378df",
+                            "value": 0
+                        }
+                    ],
+                    "LastPositionLongitude": [{
+                            "id": "66411848-6594-477a-a676-9faf88f0d74e",
+                            "value": 0
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "870727850570007874|PartitionKey",
+                            "value": "870727850570007874"
+                        }
+                    ],
+                    "ShipmentId": [{
+                            "id": "dd7641ef-80bd-4b2f-94e1-dc2dfc9a781b",
+                            "value": "70727850570000107"
+                        }
+                    ]
+                }
+            }
+        ]}

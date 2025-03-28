@@ -1,0 +1,47 @@
+ {"ConsignmentItems": [{
+                "id": "7072785057000013206_870727850570011598",
+                "label": "ConsignmentItem",
+                "type": "vertex",
+                "properties": {
+                    "ConsignmentId": [{
+                            "id": "6b44cbeb-94e2-4d38-b5df-8ba2d0aa2531",
+                            "value": "7072785057000013206"
+                        }
+                    ],
+                    "CreatedOn": [{
+                            "id": "af79c503-53c7-4baa-9526-f8b72efb616c",
+                            "value": 1741170738163
+                        }
+                    ],
+                    "IsEquipment": [{
+                            "id": "9e19e347-a6fe-440d-ba4a-7ea2b2e310d3",
+                            "value": false
+                        }
+                    ],
+                    "IsOverSize": [{
+                            "id": "27fd22ce-7c9e-4333-a5f5-b0cdd22f91f5",
+                            "value": false
+                        }
+                    ],
+                    "LoadingUnitId": [{
+                            "id": "a1ff0d2e-7b21-4278-be13-95c5dca8ae52",
+                            "value": "870727850570011598"
+                        }
+                    ],
+                    "PartitionKey": [{
+                            "id": "7072785057000013206_870727850570011598|PartitionKey",
+                            "value": "7072785057000013206"
+                        }
+                    ],
+                    "PartyId": [{
+                            "id": "cc05aff4-c88f-4f57-919f-f63c6c36588e",
+                            "value": "7072785005612"
+                        }
+                    ],
+                    "Status": [{
+                            "id": "311c7b75-248b-415e-8e52-30d2899c9e43",
+                            "value": 0
+                        }
+                    ]
+                }
+            } ] }
