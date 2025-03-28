@@ -1,0 +1,682 @@
+@prefix : <http://neo4j.com/nexus//> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://neo4j.com/nexus//> .
+
+<http://neo4j.com/nexus/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://neo4j.com/nexus//Has
+:Has rdf:type owl:ObjectProperty ;
+     rdfs:domain :Shipment ;
+     rdfs:range :AdditionalIdentifier .
+
+###  http://neo4j.com/nexus//Contains
+:Contains rdf:type owl:ObjectProperty ;
+     rdfs:domain :Shipment ;
+     rdfs:range :ShipmentItem .
+
+###  http://neo4j.com/nexus//IsContainedIn
+:IsContainedIn rdf:type owl:ObjectProperty ;
+     rdfs:domain :ShipmentItem ;
+     rdfs:range :Shipment .
+
+
+###  http://neo4j.com/nexus//IsPackedIn
+:IsPackedIn rdf:type owl:ObjectProperty ;
+     rdfs:domain :ShipmentItem ;
+     rdfs:range :LoadingUnit .
+
+###  http://neo4j.com/nexus//Packs
+:Packs rdf:type owl:ObjectProperty ;
+     rdfs:domain :LoadingUnit ;
+     rdfs:range :ShipmentItem .
+
+
+###  http://neo4j.com/nexus//Has
+:Has rdf:type owl:ObjectProperty ;
+     rdfs:domain :ShipmentItem ;
+     rdfs:range :TradeItemDataDetail .
+
+
+###  http://neo4j.com/nexus//Includes
+:Includes rdf:type owl:ObjectProperty ;
+     rdfs:domain :ConsignmentItem ;
+     rdfs:range :LoadingUnit .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://neo4j.com/nexus/RealId
+:RealId rdf:type owl:DatatypeProperty ;
+        rdfs:domain :AdditionalIdentifier .
+
+
+###  http://neo4j.com/nexus//AdditionalId
+:AdditionalId rdf:type owl:DatatypeProperty ;
+              rdfs:domain :AdditionalIdentifier .
+
+
+###  http://neo4j.com/nexus//AdditionalIdentifiersId
+:AdditionalIdentifiersId rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :AdditionalIdentifier .
+
+
+###  http://neo4j.com/nexus//CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+           rdfs:domain :AdditionalIdentifier ,
+                       :Shipment ;
+           rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+           rdfs:domain :AdditionalIdentifier ,
+                       :Shipment ;
+           rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//DeclaredValue
+:DeclaredValue rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Shipment ;
+               rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//HazardousGoods
+:HazardousGoods rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//HazardousLimitedQuantity
+:HazardousLimitedQuantity rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Shipment ;
+                          rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//HazardousSubstance
+:HazardousSubstance rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Shipment ;
+                    rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//Id
+:Id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :AdditionalIdentifier ,
+                :Shipment ;
+    rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//IncoTermCode
+:IncoTermCode rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//IsComplete
+:IsComplete rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//OperationalStatus
+:OperationalStatus rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Shipment ;
+                   rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+              rdfs:domain :AdditionalIdentifier ,
+                          :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+         rdfs:domain :AdditionalIdentifier ,
+                     :Shipment ;
+         rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverCountryId
+:ReceiverCountryId rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Shipment ;
+                   rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverLocation
+:ReceiverLocation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shipment ;
+                  rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverName
+:ReceiverName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverPartyId
+:ReceiverPartyId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Shipment ;
+                 rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverPostalCode
+:ReceiverPostalCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Shipment ;
+                    rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ReceiverStreet
+:ReceiverStreet rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderCountryId
+:SenderCountryId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Shipment ;
+                 rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderLocation
+:SenderLocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderName
+:SenderName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderPartyId
+:SenderPartyId rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Shipment ;
+               rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderPostalCode
+:SenderPostalCode rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shipment ;
+                  rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SenderStreet
+:SenderStreet rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromAdditional
+:ShipFromAdditional rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Shipment ;
+                    rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromCountryId
+:ShipFromCountryId rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Shipment ;
+                   rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromGLN
+:ShipFromGLN rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Shipment ;
+             rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromLocation
+:ShipFromLocation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shipment ;
+                  rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromName
+:ShipFromName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromPartyId
+:ShipFromPartyId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Shipment ;
+                 rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromPostalCode
+:ShipFromPostalCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Shipment ;
+                    rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipFromStreet
+:ShipFromStreet rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToAdditional
+:ShipToAdditional rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shipment ;
+                  rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToCountryId
+:ShipToCountryId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Shipment ;
+                 rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToGLN
+:ShipToGLN rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Shipment ;
+           rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToLocation
+:ShipToLocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToName
+:ShipToName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shipment ;
+            rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToPartyId
+:ShipToPartyId rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Shipment ;
+               rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToPostalCode
+:ShipToPostalCode rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shipment ;
+                  rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipToStreet
+:ShipToStreet rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Shipment ;
+              rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//ShipperPartyId
+:ShipperPartyId rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Shipment ;
+                rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//SplitShipment
+:SplitShipment rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Shipment ;
+               rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//Status
+:Status rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Shipment ;
+        rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//TransportReferencesJson
+:TransportReferencesJson rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Shipment ;
+                         rdfs:range xsd:string .
+
+
+###  http://neo4j.com/nexus//Type
+:Type rdf:type owl:DatatypeProperty ;
+      rdfs:domain :AdditionalIdentifier .
+
+
+
+
+
+
+
+###  http://neo4j.com/nexus/AdditionalTradeItem
+:AdditionalTradeItem rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/Description
+:Description rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/GTIN
+:GTIN rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/HashCode
+:HashCode rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+
+###  http://neo4j.com/nexus/PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/Quantity
+:Quantity rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/ShipmentId
+:ShipmentId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/ShipmentItemId
+:ShipmentItemId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+
+###  http://neo4j.com/nexus/TradeItemDescription
+:TradeItemDescription rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/TransportReferencesJson
+:TransportReferencesJson rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/LineItemNumber
+:LineItemNumber rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/AICodes
+:AICodes rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/OrderQuantity
+:OrderQuantity rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+       
+###  http://neo4j.com/nexus/SupplierSoldQuantity
+:SupplierSoldQuantity rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/BuyerSoldQuantity
+:BuyerSoldQuantity rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+       
+###  http://neo4j.com/nexus/Id
+:Id rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+###  http://neo4j.com/nexus/RealId
+:RealId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+       
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ShipmentItem .
+
+
+
+
+
+
+
+
+
+
+
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/GrossWeight
+:GrossWeight rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/HazardousGoods
+:HazardousGoods rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/HazardousLimitedQuantity
+:HazardousLimitedQuantity rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/HazardousSubstance
+:HazardousSubstance rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/Height
+:Height rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/Length
+:Length rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/LoadingUnitId
+:LoadingUnitId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+  
+###  http://neo4j.com/nexus/LoadingUnitType
+:LoadingUnitType rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/NetWeight
+:NetWeight rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+       
+###  http://neo4j.com/nexus/PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+
+###  http://neo4j.com/nexus/Status
+:Status rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/Volume
+:Volume rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/Width
+:Width rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/LastPositionLatitude
+:LastPositionLatitude rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/LastPositionLongitude
+:LastPositionLongitude rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+
+###  http://neo4j.com/nexus/ShipmentId
+:ShipmentId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/Id
+:Id rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/RealId
+:RealId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :LoadingUnit .
+
+
+
+
+
+
+
+
+###  http://neo4j.com/nexus/ShipmentId
+:ShipmentId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/GTIN
+:GTIN rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/AdditionalTradeItemIdentification
+:AdditionalTradeItemIdentification rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/HashCode
+:HashCode rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/Field
+:Field rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/Value
+:Value rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/AIId
+:AIId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/Qualifier
+:Qualifier rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/Id
+:Id rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/RealId
+:RealId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/CreatedBy
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TradeItemDataDetail .
+
+
+
+
+
+
+
+
+###  http://neo4j.com/nexus/ConsignmentId
+:ConsignmentId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/LoadingUnitId
+:LoadingUnitId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/Status
+:Status rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/IsOverSize
+:IsOverSize rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/IsEquipment
+:IsEquipment rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/Id
+:Id rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/RealId
+:RealId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/PartitionKey
+:PartitionKey rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/PartyId
+:PartyId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedOn rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/CreatedOn
+:CreatedBy rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+###  http://neo4j.com/nexus/ParentLoadingUnitId
+:ParentLoadingUnitId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :ConsignmentItem .
+
+
+
+
+
+
+
+
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://neo4j.com/nexus//AdditionalIdentifier
+:AdditionalIdentifier rdf:type owl:Class .
+
+
+###  http://neo4j.com/nexus//Shipment
+:Shipment rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/ShipmentItem
+:ShipmentItem rdf:type owl:Class .
+
+###  http://neo4j.com/nexus/LoadingUnit
+:LoadingUnit rdf:type owl:Class .
+
+
+###  http://neo4j.com/nexus/TradeItemDetail
+:TradeItemDataDetail rdf:type owl:Class .
+
+
+###  http://neo4j.com/nexus/ConsignmentItem
+:ConsignmentItem rdf:type owl:Class .
+
